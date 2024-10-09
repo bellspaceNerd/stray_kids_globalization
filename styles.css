@@ -1,7 +1,7 @@
 /* background */
 
 body {
-  background-image: url("/images/straykidsbg.jpg");
+  background-image: url(/images/straykidsbg.jpg);
 }
 
 /* list of each of the members, side by side */
@@ -12,48 +12,48 @@ body {
 
 /* ... */
 
-    <img src="img_snow.jpg" alt="Bang Chan" style="width:100%">
+    <img src="images/temp.webp" alt="Bang Chan" style="width:100%">
   </div>
 
 /* ... */
 
   <div class="column">
-    <img src="img_forest.jpg" alt="Lee Know" style="width:100%">
+    <img src="images/temp.webp" alt="Lee Know" style="width:100%">
   </div>
 
 /* ... */
 
   <div class="column">
-    <img src="img_mountains.jpg" alt="Changbin" style="width:100%">
+    <img src="images/temp.webp" alt="Changbin" style="width:100%">
   </div>
 
 /* ... */
 
   <div class="column">
-    <img src="img_mountains.jpg" alt="Felix" style="width:100%">
+    <img src="images/temp.webp" alt="Felix" style="width:100%">
   </div>
 
 /* ... */
 
   <div class="column">
-    <img src="img_mountains.jpg" alt="Hyunjin" style="width:100%">
+    <img src="images/temp.webp" alt="Hyunjin" style="width:100%">
   </div>
 
 
   <div class="column">
-    <img src="img_mountains.jpg" alt="Han" style="width:100%">
-  </div>
-
-/* ... */
-
-  <div class="column">
-    <img src="img_mountains.jpg" alt="Seungmin" style="width:100%">
+    <img src="images/temp.webp" alt="Han" style="width:100%">
   </div>
 
 /* ... */
 
   <div class="column">
-    <img src="img_mountains.jpg" alt="I.N" style="width:100%">
+    <img src="images/temp.webp" alt="Seungmin" style="width:100%">
+  </div>
+
+/* ... */
+
+  <div class="column">
+    <img src="images/temp.webp" alt="I.N" style="width:100%">
   </div>
 
 
