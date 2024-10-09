@@ -1,7 +1,7 @@
 /* background */
 
 body {
-  background-image: url(/images/straykidsbg.jpg);
+  background-image: url(./images/straykidsbg.jpg);
   background-size: cover;
   background-position: fixed
 
