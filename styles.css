@@ -3,3 +3,58 @@
 body {
   background-image: url("/images/straykidsbg.jpg");
 }
+
+/* list of each of the members, side by side */
+
+<div class="row">
+
+  <div class="column">
+
+/* ... */
+
+    <img src="img_snow.jpg" alt="Bang Chan" style="width:100%">
+  </div>
+
+/* ... */
+
+  <div class="column">
+    <img src="img_forest.jpg" alt="Lee Know" style="width:100%">
+  </div>
+
+/* ... */
+
+  <div class="column">
+    <img src="img_mountains.jpg" alt="Changbin" style="width:100%">
+  </div>
+
+/* ... */
+
+  <div class="column">
+    <img src="img_mountains.jpg" alt="Felix" style="width:100%">
+  </div>
+
+/* ... */
+
+  <div class="column">
+    <img src="img_mountains.jpg" alt="Hyunjin" style="width:100%">
+  </div>
+
+
+  <div class="column">
+    <img src="img_mountains.jpg" alt="Han" style="width:100%">
+  </div>
+
+/* ... */
+
+  <div class="column">
+    <img src="img_mountains.jpg" alt="Seungmin" style="width:100%">
+  </div>
+
+/* ... */
+
+  <div class="column">
+    <img src="img_mountains.jpg" alt="I.N" style="width:100%">
+  </div>
+
+
+</div>
