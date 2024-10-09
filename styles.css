@@ -1,10 +1,9 @@
 /* background */
 
 body {
-  background-image: url(./images/straykidsbg.jpg);
-  background-size: cover;
-  background-position: fixed
-
+  
+  background-color: lightblue;
+  
 /* list of each of the members, side by side */
 
 <div class="row">
