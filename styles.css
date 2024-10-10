@@ -2,6 +2,11 @@
 
 body {
 
+	div {
+		
+   /* transition the background-color over 1s with a linear animation */
+   transition: background-image 1s linear;
+
 background-image: url(images/strayKids.webp);
   
   /* Image is centered vertically and horizontally at all times */
@@ -23,6 +28,12 @@ background-image: url(images/strayKids.webp);
   /* SHORTHAND CSS NOTATION
    * background: url(background-photo.jpg) center center cover no-repeat fixed;
    */
+}
+}
+
+/* the :hover that causes the background-color to change */
+div: hover {
+   background-image: transparent;      
 }
 
 /* For mobile devices */
