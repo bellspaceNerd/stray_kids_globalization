@@ -1,60 +1,35 @@
 /* background */
 
 body {
-    
-/* list of each of the members, side by side */
 
-<div class="row">
-
-  <div class="column">
-
-/* ... */
-
-    <img src="images/temp.webp" alt="Bang Chan" style="width:100%">
-  </div>
-
-/* ... */
-
-  <div class="column">
-    <img src="images/temp.webp" alt="Lee Know" style="width:100%">
-  </div>
-
-/* ... */
-
-  <div class="column">
-    <img src="images/temp.webp" alt="Changbin" style="width:100%">
-  </div>
-
-/* ... */
-
-  <div class="column">
-    <img src="images/temp.webp" alt="Felix" style="width:100%">
-  </div>
-
-/* ... */
-
-  <div class="column">
-    <img src="images/temp.webp" alt="Hyunjin" style="width:100%">
-  </div>
-
-
-  <div class="column">
-    <img src="images/temp.webp" alt="Han" style="width:100%">
-  </div>
-
-/* ... */
-
-  <div class="column">
-    <img src="images/temp.webp" alt="Seungmin" style="width:100%">
-  </div>
-
-/* ... */
-
-  <div class="column">
-    <img src="images/temp.webp" alt="I.N" style="width:100%">
-  </div>
-
-
-</div>
-
+background-image: url(images/straykidsbg.jpg);
+  
+  /* Image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Image doesn't repeat */
+  background-repeat: no-repeat;
+  
+  /* Makes the image fixed in the viewport so that it doesn't move when 
+     the content height is greater than the image height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based on its container's size */
+  background-size: cover;
+  
+  /* Pick a solid background color that will be displayed while the background image is loading */
+  background-color:#464646;
+  
+  /* SHORTHAND CSS NOTATION
+   * background: url(background-photo.jpg) center center cover no-repeat fixed;
+   */
 }
+
+/* For mobile devices */
+@media only screen and (max-width: 767px) {
+  body {
+    /* The file size of this background image is 93% smaller
+     * to improve page load speed on mobile internet connections */
+    background-image: url(images/straykidsbg.jpg);
+  }
+	}
