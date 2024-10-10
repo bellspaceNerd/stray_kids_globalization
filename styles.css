@@ -1,13 +1,8 @@
 /* background */
 
 body {
-
-	div {
-		
-   /* transition the background-color over 1s with a linear animation */
-   transition: background-image 1s linear;
-
-background-image: url(images/strayKids.webp);
+	
+  background-image: url(images/strayKids.webp);
   
   /* Image is centered vertically and horizontally at all times */
   background-position: center center;
@@ -24,17 +19,9 @@ background-image: url(images/strayKids.webp);
   
   /* Pick a solid background color that will be displayed while the background image is loading */
   background-color:#464646;
-  
-  /* SHORTHAND CSS NOTATION
-   * background: url(background-photo.jpg) center center cover no-repeat fixed;
-   */
-}
-}
 
-/* the :hover that causes the background-color to change */
-div: hover {
-   background-image: transparent;      
-}
+} 
+
 
 /* For mobile devices */
 @media only screen and (max-width: 767px) {
